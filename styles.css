@@ -1,0 +1,167 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e3e6eb);
+    color: #333;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 850px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings Styling */
+h1 {
+    color: #1d3557;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2, h3 {
+    font-weight: bold;
+    color: #1a237e;
+}
+
+/* Section Headings */
+.section-heading {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px;
+    background: #457b9d;
+    color: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.section-heading:hover {
+    background: #1d3557;
+}
+
+/* Hidden Content Styling */
+.hidden-content {
+    display: none;
+    margin-top: 10px;
+    padding: 12px;
+    border-left: 4px solid #457b9d;
+    background-color: #f1f8ff;
+    border-radius: 6px;
+}
+
+/* Module Styling */
+.module {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.module:hover {
+    background-color: #e1e7ff;
+}
+
+/* Quiz Section Styling */
+.quiz-container {
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: none;
+}
+
+.quiz-question {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+/* Quiz Options */
+.quiz-options button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.quiz-options button:hover {
+    background: #0077b6;
+    color: white;
+}
+
+/* Navigation Buttons Styling */
+.quiz-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Previous Button */
+#prev-question {
+    background: #e63946;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#prev-question:hover {
+    background: #c91c2d;
+}
+
+/* Next Button */
+#next-question {
+    background: #06d6a0;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#next-question:hover {
+    background: #04b383;
+}
+
+/* Start Quiz Button */
+.btn-primary {
+    background: #457b9d;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #1d3557;
+}
+
+/* Hide elements initially */
+.hidden {
+    display: none;
+}
